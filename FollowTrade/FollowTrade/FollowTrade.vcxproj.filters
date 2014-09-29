@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CTPTrade">
+      <UniqueIdentifier>{0757252d-baed-4de8-88dd-88cb54ef47a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CTPTrade">
+      <UniqueIdentifier>{af45f6bb-012e-4bee-98f0-87f973ac0999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CTPTrade\Common">
+      <UniqueIdentifier>{9eccb48e-94c0-42e1-9a4a-b651d7a36501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CTPTrade\Common">
+      <UniqueIdentifier>{75cfcaa1-aadd-4feb-844d-7773db5d589e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CTPTrade\Entity">
+      <UniqueIdentifier>{f7a23cd4-ea51-4e01-bd81-0c0098a83f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CTPTrade\Entity">
+      <UniqueIdentifier>{04800b60-2176-4ca7-94ec-b6f4e24bd8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CTPTrade\Entity\Interface">
+      <UniqueIdentifier>{8c5078d3-bff1-45ac-9a7e-26fc22681208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CTPTrade\Thread">
+      <UniqueIdentifier>{c74e60df-bd6a-4d84-b564-9f0d779044f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Struct">
+      <UniqueIdentifier>{05a729c3-5258-40bd-8037-1a7bf556098a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FollowTrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowTradeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Quote.h">
+      <Filter>Header Files\CTPTrade</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\QuoteSPI.h">
+      <Filter>Header Files\CTPTrade</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Trade.h">
+      <Filter>Header Files\CTPTrade</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\TradeSPI.h">
+      <Filter>Header Files\CTPTrade</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Common\Common.h">
+      <Filter>Header Files\CTPTrade\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Account.h">
+      <Filter>Header Files\CTPTrade\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Config.h">
+      <Filter>Header Files\CTPTrade\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Entity.h">
+      <Filter>Header Files\CTPTrade\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Order.h">
+      <Filter>Header Files\CTPTrade\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Parameter.h">
+      <Filter>Header Files\CTPTrade\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Position.h">
+      <Filter>Header Files\CTPTrade\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Symbol.h">
+      <Filter>Header Files\CTPTrade\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Tick.h">
+      <Filter>Header Files\CTPTrade\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Interface\IOrder.h">
+      <Filter>Header Files\CTPTrade\Entity\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Interface\IQuote.h">
+      <Filter>Header Files\CTPTrade\Entity\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Entity\Interface\ITrade.h">
+      <Filter>Header Files\CTPTrade\Entity\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade\Thread\Thread.h">
+      <Filter>Header Files\CTPTrade\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowParamter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogLogin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListHeade.h">
+      <Filter>Header Files\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageAPIStruct.h">
+      <Filter>Header Files\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FollowTrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowTradeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade\Quote.cpp">
+      <Filter>Source Files\CTPTrade</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade\QuoteSPI.cpp">
+      <Filter>Source Files\CTPTrade</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade\Trade.cpp">
+      <Filter>Source Files\CTPTrade</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade\TradeObject.cpp">
+      <Filter>Source Files\CTPTrade</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade\TradeSPI.cpp">
+      <Filter>Source Files\CTPTrade</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade\Common\Common.cpp">
+      <Filter>Source Files\CTPTrade\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade\Entity\Order.cpp">
+      <Filter>Source Files\CTPTrade\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade\Entity\Symbol.cpp">
+      <Filter>Source Files\CTPTrade\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogLogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogStatus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FollowTrade.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FollowTrade.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FollowTrade.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CTPTrade\CTPAPI\thostmduserapi.lib" />
+    <Library Include="CTPTrade\CTPAPI\thosttraderapi.lib" />
+  </ItemGroup>
+</Project>
